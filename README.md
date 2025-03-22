@@ -54,7 +54,7 @@ Start the Thread-Per-Client server:
 ### Running the Client 
 Navigate to the client folder.
 Build the client:
-```mvn compile```
+``` mvn compile ``` </br>
 Start the client:
 ``` mvn exec:java -Dexec.mainClass="bgu.spl.net.impl.tftp.TftpClient" -Dexec.args="127.0.0.1 7777" ```
 (Use 127.0.0.1 as the IP address and 7777 as the port.)
