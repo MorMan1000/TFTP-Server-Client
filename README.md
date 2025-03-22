@@ -47,7 +47,7 @@ The extended TFTP protocol supports the following message types:
 ### Running the Server
 1. Navigate to the `server` folder.
 2. Build the server:
-   ``mvn compile```
+   ``` mvn compile```
 Start the Thread-Per-Client server:
 ```mvn exec:java -Dexec.mainClass="bgu.spl.net.impl.tftp.TftpServer" ```
 
